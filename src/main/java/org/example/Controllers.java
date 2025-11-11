@@ -10,4 +10,11 @@ public class Controllers {
     public String sayHello() {
         return "Hello world";
     }
+
+    @GetMapping("/bye")
+    public String sayBye() {
+        return "Bye";
+    }
+
+
 }
